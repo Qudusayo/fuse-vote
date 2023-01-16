@@ -1,0 +1,61 @@
+.Login {
+  margin: auto;
+  width: 90%;
+  max-width: 400px;
+  margin: 10em auto;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+
+  h2 {
+    font-size: 2.5em;
+    margin-top: 0.5em;
+  }
+
+  span {
+    display: block;
+    margin: 0.5em auto 1em;
+    color: #77767a;
+  }
+
+  form {
+    width: 100%;
+    input,
+    button {
+      display: block;
+      width: 100%;
+      margin: 1.2em auto;
+    }
+
+    input {
+      display: block;
+      outline: none;
+      border: 1px solid #dedede;
+      border-radius: 7px;
+      padding: 1.3em;
+      font-weight: bold;
+
+      &:focus {
+        border: 1px solid #a796ff;
+      }
+
+      &::placeholder {
+        font-weight: 400;
+      }
+    }
+
+    button {
+      outline: none;
+      border: none;
+      border-radius: 7px;
+      box-sizing: border-box;
+      padding: 1em;
+      font-size: 1em;
+      cursor: pointer;
+
+      background-color: #a796ff;
+      color: #ffffff;
+    }
+  }
+}
